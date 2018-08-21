@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public

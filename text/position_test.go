@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -9,8 +14,9 @@ package text_test
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/opsidian/parsley/parsley"
-	"github.com/opsidian/parsley/text"
+
+	"github.com/sniperkit/snk.fork.parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/text"
 )
 
 var _ = Describe("Position", func() {

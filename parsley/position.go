@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsley
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Position is an interface to translate a file position to a string
 //go:generate counterfeiter . Position

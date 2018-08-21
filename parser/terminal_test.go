@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parser_test
 
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/opsidian/parsley/ast"
-	"github.com/opsidian/parsley/data"
-	"github.com/opsidian/parsley/parser"
-	"github.com/opsidian/parsley/parsley"
-	"github.com/opsidian/parsley/parsley/parsleyfakes"
+
+	"github.com/sniperkit/snk.fork.parsley/ast"
+	"github.com/sniperkit/snk.fork.parsley/data"
+	"github.com/sniperkit/snk.fork.parsley/parser"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/parsley/parsleyfakes"
 )
 
 var _ = Describe("Nil", func() {

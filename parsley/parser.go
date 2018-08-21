@@ -1,7 +1,12 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsley
 
 import (
-	"github.com/opsidian/parsley/data"
+	"github.com/sniperkit/snk.fork.parsley/data"
 )
 
 // Parser defines a parser interface

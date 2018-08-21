@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package text
 
 import (
-	"github.com/opsidian/parsley/ast"
-	"github.com/opsidian/parsley/data"
-	"github.com/opsidian/parsley/parser"
-	"github.com/opsidian/parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/ast"
+	"github.com/sniperkit/snk.fork.parsley/data"
+	"github.com/sniperkit/snk.fork.parsley/parser"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
 )
 
 // LeftTrim skips the whitespaces before it tries to match the given parser

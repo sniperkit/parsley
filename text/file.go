@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -12,7 +17,7 @@ import (
 	"io/ioutil"
 	"sort"
 
-	"github.com/opsidian/parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
 )
 
 // File contains the contents of a file and the line offsets for quick line+column lookup

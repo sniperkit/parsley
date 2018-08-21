@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -17,11 +22,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/opsidian/parsley/combinator"
-	"github.com/opsidian/parsley/examples/json/json"
-	"github.com/opsidian/parsley/parser"
-	"github.com/opsidian/parsley/parsley"
-	"github.com/opsidian/parsley/text"
+	"github.com/sniperkit/snk.fork.parsley/combinator"
+	"github.com/sniperkit/snk.fork.parsley/examples/json/json"
+	"github.com/sniperkit/snk.fork.parsley/parser"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/text"
 )
 
 func main() {

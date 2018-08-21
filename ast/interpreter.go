@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -6,7 +11,9 @@
 
 package ast
 
-import "github.com/opsidian/parsley/parsley"
+import (
+	"github.com/sniperkit/snk.fork.parsley/parsley"
+)
 
 // InterpreterFunc defines a helper to implement the Interpreter interface with functions
 type InterpreterFunc func(ctx interface{}, nodes []parsley.Node) (interface{}, parsley.Error)

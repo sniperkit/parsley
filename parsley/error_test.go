@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package parsley_test
 
 import (
@@ -6,7 +11,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/opsidian/parsley/parsley"
+
+	"github.com/sniperkit/snk.fork.parsley/parsley"
 )
 
 var _ = Describe("NewError", func() {

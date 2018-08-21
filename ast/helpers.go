@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -6,7 +11,9 @@
 
 package ast
 
-import "github.com/opsidian/parsley/parsley"
+import (
+	"github.com/sniperkit/snk.fork.parsley/parsley"
+)
 
 // AppendNode appends
 func AppendNode(n1, n2 parsley.Node) parsley.Node {

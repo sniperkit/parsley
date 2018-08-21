@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -10,11 +15,12 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
-	"github.com/opsidian/parsley/ast"
-	"github.com/opsidian/parsley/data"
-	"github.com/opsidian/parsley/parsley"
-	"github.com/opsidian/parsley/text"
-	"github.com/opsidian/parsley/text/terminal"
+
+	"github.com/sniperkit/snk.fork.parsley/ast"
+	"github.com/sniperkit/snk.fork.parsley/data"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/text"
+	"github.com/sniperkit/snk.fork.parsley/text/terminal"
 )
 
 var _ = Describe("Bool", func() {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -9,7 +14,7 @@ package parsley
 import (
 	"fmt"
 
-	"github.com/opsidian/parsley/data"
+	"github.com/sniperkit/snk.fork.parsley/data"
 )
 
 // Parse parses the given input and returns with the root node of the AST. It expects a reader and the root parser.

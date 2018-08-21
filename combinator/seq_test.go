@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -9,12 +14,12 @@ package combinator_test
 import (
 	"fmt"
 
-	"github.com/opsidian/parsley/ast"
-	"github.com/opsidian/parsley/combinator"
-	"github.com/opsidian/parsley/parser"
-	"github.com/opsidian/parsley/parsley"
-	"github.com/opsidian/parsley/text"
-	"github.com/opsidian/parsley/text/terminal"
+	"github.com/sniperkit/snk.fork.parsley/ast"
+	"github.com/sniperkit/snk.fork.parsley/combinator"
+	"github.com/sniperkit/snk.fork.parsley/parser"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/text"
+	"github.com/sniperkit/snk.fork.parsley/text/terminal"
 )
 
 // Let's define a parser which accepts "a", "b", "c" characters in order.

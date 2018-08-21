@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -10,7 +15,8 @@ import (
 	"fmt"
 
 	"github.com/jinzhu/inflection"
-	"github.com/opsidian/parsley/parsley"
+
+	"github.com/sniperkit/snk.fork.parsley/parsley"
 )
 
 // SepBy applies the given value parser zero or more times separated by the separator parser

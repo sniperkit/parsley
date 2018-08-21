@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -12,7 +17,7 @@ import (
 	"regexp"
 	"unicode/utf8"
 
-	"github.com/opsidian/parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
 )
 
 // WsMode is a type for definining how to handle whitespaces after the tokens

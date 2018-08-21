@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package json
 
 import (
-	"github.com/opsidian/parsley/ast/interpreter"
-	"github.com/opsidian/parsley/combinator"
-	"github.com/opsidian/parsley/parser"
-	"github.com/opsidian/parsley/text"
-	"github.com/opsidian/parsley/text/terminal"
+	"github.com/sniperkit/snk.fork.parsley/ast/interpreter"
+	"github.com/sniperkit/snk.fork.parsley/combinator"
+	"github.com/sniperkit/snk.fork.parsley/parser"
+	"github.com/sniperkit/snk.fork.parsley/text"
+	"github.com/sniperkit/snk.fork.parsley/text/terminal"
 )
 
 // NewParser returns with a new JSON parser

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -7,7 +12,7 @@
 package combinator
 
 import (
-	"github.com/opsidian/parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
 )
 
 // Seq tries to apply all parsers after each other matching effectively a sequence of tokens

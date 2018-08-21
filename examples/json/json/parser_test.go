@@ -1,16 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package json_test
 
 import (
+	encoding_json "encoding/json"
 	"io/ioutil"
 	"testing"
 
-	encoding_json "encoding/json"
-
-	"github.com/opsidian/parsley/combinator"
-	"github.com/opsidian/parsley/examples/json/json"
-	"github.com/opsidian/parsley/parser"
-	"github.com/opsidian/parsley/parsley"
-	"github.com/opsidian/parsley/text"
+	"github.com/sniperkit/snk.fork.parsley/combinator"
+	"github.com/sniperkit/snk.fork.parsley/examples/json/json"
+	"github.com/sniperkit/snk.fork.parsley/parser"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/text"
 )
 
 func benchmarkParsleyJSON(b *testing.B, jsonFilePath string) {

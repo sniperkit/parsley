@@ -1,9 +1,12 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 version: 2
 jobs:
   build:
     docker:
       - image: circleci/golang:1.8
-    working_directory: /go/src/github.com/opsidian/parsley
+    working_directory: /go/src/github.com/sniperkit/snk.fork.parsley
     steps:
       - checkout
       - run: go get -u github.com/golang/dep/cmd/dep

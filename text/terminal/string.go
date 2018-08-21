@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -9,11 +14,11 @@ package terminal
 import (
 	"strconv"
 
-	"github.com/opsidian/parsley/ast"
-	"github.com/opsidian/parsley/data"
-	"github.com/opsidian/parsley/parser"
-	"github.com/opsidian/parsley/parsley"
-	"github.com/opsidian/parsley/text"
+	"github.com/sniperkit/snk.fork.parsley/ast"
+	"github.com/sniperkit/snk.fork.parsley/data"
+	"github.com/sniperkit/snk.fork.parsley/parser"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/text"
 )
 
 // String matches a string literal enclosed in double quotes

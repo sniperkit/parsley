@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2017 Opsidian Ltd.
 //
 // This Source Code Form is subject to the terms of the Mozilla Public
@@ -9,8 +14,8 @@ package interpreter
 import (
 	"fmt"
 
-	"github.com/opsidian/parsley/ast"
-	"github.com/opsidian/parsley/parsley"
+	"github.com/sniperkit/snk.fork.parsley/ast"
+	"github.com/sniperkit/snk.fork.parsley/parsley"
 )
 
 // Select returns with an interpreter function which returns the value of the selected node
